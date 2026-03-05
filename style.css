@@ -1,0 +1,107 @@
+*{
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    color: black;
+    background-color: aquamarine;
+    border: 3px solid black;
+    text-align: center;
+    border-radius: 20px;
+}
+ul{
+    color:black;
+    background-color:aquamarine;
+    border: 1px solid white;
+    text-align: left;
+    margin: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    list-style: none;
+}
+
+p{
+    color: aquamarine;
+    padding: 5px;
+    background-color: black;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    border: 2px solid aquamarine;
+}
+
+
+h3{
+    color: black;
+    padding: 5px;
+    background-color: aquamarine;
+    text-align: center;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 25px;
+}
+button{
+    border: 2px solid aquamarine;
+    border-radius: 10px;
+}
+
+.bottom a {
+    text-decoration: none;
+    border: 2px solid aquamarine;
+    padding: 2px;
+    background-color:white;
+    text-align: center;
+    border-radius: 10px;
+}
+p::before{
+    content: '🚗';
+}
+
+p::after{
+    content: '🚗';
+}
+.grid{
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr ;
+    gap: 15px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.car1{
+    display: flex;
+    height: 100px; 
+    width: 150px;
+    border: 3px solid black;
+    justify-content:left;
+    
+}
+
+.car{
+    padding: 20px;
+    border: 2px solid black;
+    display: flex;
+    width: 250px;
+    height: 200px;
+}
+header{
+    justify-content: center;
+    display: flex;
+}
+
+.bottom{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 3fr;
+    padding: 15px;
+    margin: 15px;
+    gap: 15px;
+
+}
+a{
+    text-decoration: none;
+}
+ 
+
